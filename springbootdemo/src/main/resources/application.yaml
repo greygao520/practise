@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+person:
+  name: zhangsan
+  age: 18
+  jobs:
+    - code
+    - play
+    - sing
+  code: ${random.int}
+  uuid: ${random.uuid}

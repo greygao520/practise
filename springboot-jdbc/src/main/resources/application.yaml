@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: greygao
+    password: 271211
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.101.11.248:3306/demo1?serverTimezone=UTC&useUnicode=true@characterEncoding=utf-8
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobaDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+
+server:
+  port: 8082
+
+
+
